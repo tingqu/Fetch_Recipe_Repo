@@ -29,9 +29,33 @@
 		678988EE2DD45F360021D2A7 /* Fetch_Recipe_RepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fetch_Recipe_RepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		678989172DD48C970021D2A7 /* Exceptions for "Fetch_Recipe_Repo" folder in "Fetch_Recipe_Repo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/MalformedRecipesData.json",
+			);
+			target = 678988D22DD45F330021D2A7 /* Fetch_Recipe_Repo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		678989182DD48C970021D2A7 /* Exceptions for "Fetch_Recipe_Repo" folder in "Compile Sources" phase from "Fetch_Recipe_Repo" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 678988CF2DD45F330021D2A7 /* Sources */;
+			membershipExceptions = (
+				"Preview Content/MalformedRecipesData.json",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		678988D52DD45F330021D2A7 /* Fetch_Recipe_Repo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				678989172DD48C970021D2A7 /* Exceptions for "Fetch_Recipe_Repo" folder in "Fetch_Recipe_Repo" target */,
+				678989182DD48C970021D2A7 /* Exceptions for "Fetch_Recipe_Repo" folder in "Compile Sources" phase from "Fetch_Recipe_Repo" target */,
+			);
 			path = Fetch_Recipe_Repo;
 			sourceTree = "<group>";
 		};
